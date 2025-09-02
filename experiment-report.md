@@ -133,6 +133,7 @@
             </div>
         </main>
     </div>
+    
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const navLinks = document.querySelectorAll('.nav-link');
