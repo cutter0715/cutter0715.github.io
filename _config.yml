@@ -1,17 +1,22 @@
-title: 私のホームページ
-description: GitHub Pagesで作成したサイトの記録です。
-author: 山田 太郎
+# Jekyllサイトの基本設定
 
-# テーマ設定
-# GitHubで公開されている "Cayman" というテーマを使用
-remote_theme: pages-themes/cayman@v0.2.0
+# サイト情報
+title: Ryota Kataoka’s Research
+author: Ryota Kataoka
+email: r.kataoka@g.matsuyama-u.ac.jp
+description: >- # descriptionは複数行にわたって記述できます
+  Jekyllを使用した実験結果の報告ページです。
+  このテンプレートは、研究成果をウェブ上で共有するために作成されました。
+url: "https://cutter0715.github.io" # あなたのサイトのURL
+baseurl: "" # リポジトリ名が `username.github.io` でない場合は、ここにリポジトリ名を入力 (例: /my-project)
 
-# プラグイン設定
+# Markdownプロセッサの設定
+markdown: kramdown
+
+# テーマ (今回はカスタムCSSを使用するため指定なし)
+# theme: minima
+
+# プラグイン
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# これ以降のファイルはサイト生成時に無視する
-exclude:
-  - Gemfile
-  - Gemfile.lock
