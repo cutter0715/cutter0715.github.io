@@ -1,0 +1,17 @@
+title: 私のホームページ
+description: GitHub Pagesで作成したサイトの記録です。
+author: 山田 太郎
+
+# テーマ設定
+# GitHubで公開されている "Cayman" というテーマを使用
+remote_theme: pages-themes/cayman@v0.2.0
+
+# プラグイン設定
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# これ以降のファイルはサイト生成時に無視する
+exclude:
+  - Gemfile
+  - Gemfile.lock
