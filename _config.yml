@@ -1,22 +1,24 @@
-# Jekyllサイトの基本設定
+name: Publish Quarto Website
 
-# サイト情報
-title: Ryota Kataoka’s Research
-author: Ryota Kataoka
-email: r.kataoka@g.matsuyama-u.ac.jp
-description: >- # descriptionは複数行にわたって記述できます
-  Jekyllを使用した実験結果の報告ページです。
-  このテンプレートは、研究成果をウェブ上で共有するために作成されました。
-url: "https://cutter0715.github.io" # あなたのサイトのURL
-baseurl: "" # リポジトリ名が `username.github.io` でない場合は、ここにリポジトリ名を入力 (例: /my-project)
+on:
+  push:
+    branches: [ main ] # mainブランチにプッシュされたら実行
 
-# Markdownプロセッサの設定
-markdown: kramdown
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-# テーマ (今回はカスタムCSSを使用するため指定なし)
-# theme: minima
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
-# プラグイン
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages # gh-pagesブランチに公開
