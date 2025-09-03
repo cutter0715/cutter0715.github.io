@@ -6,5 +6,5 @@ website:
   title: "目標の期中調整 実験" # ウェブサイトのタイトル
   navbar:
     left:
-      - href: Pilot Test.qmd  # あなたのファイル名
+      - href: Pilot_test.qmd  # あなたのファイル名
         text: Home # ナビゲーションバーに表示されるテキスト
