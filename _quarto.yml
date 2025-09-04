@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "Making sharable documents with Quarto" 
-  site-url: "https://openscapes.github.io/quarto-website-tutorial" 
-  repo-url: https://github.com/openscapes/quarto-website-tutorial 
+  site-url: "https://github.com/cutter0715/cutter0715.github.io.git" 
+  repo-url: https://github.com/cutter0715/cutter0715.github.io.git 
   repo-actions: [edit, issue]
   
   page-footer:
