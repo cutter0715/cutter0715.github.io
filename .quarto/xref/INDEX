@@ -1,5 +1,20 @@
 {
   "Target_adjustment_pilot.qmd": {
     "Target_adjustment_pilot.html": "e128f43b"
+  },
+  "results.qmd": {
+    "results.html": "ff401ed3"
+  },
+  "plan.qmd": {
+    "plan.html": "1b960587"
+  },
+  "piilot.qmd": {
+    "piilot.html": "c8c1b31b"
+  },
+  "index.qmd": {
+    "index.html": "3cfe8eca"
+  },
+  "pilot.qmd": {
+    "pilot.html": "04fba263"
   }
 }

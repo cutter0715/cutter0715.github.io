@@ -8,7 +8,7 @@
 
 <meta name="author" content="片岡　亮太">
 
-<title>目標の期中調整 実験</title>
+<title>目標の期中調整 実験 – Experiment of target adjustment</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,27 +24,102 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="Target_adjustment_pilot_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Target_adjustment_pilot_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="Target_adjustment_pilot_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="Target_adjustment_pilot_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="Target_adjustment_pilot_files/libs/quarto-html/popper.min.js"></script>
-<script src="Target_adjustment_pilot_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Target_adjustment_pilot_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Target_adjustment_pilot_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Target_adjustment_pilot_files/libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Target_adjustment_pilot_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Target_adjustment_pilot_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Target_adjustment_pilot_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ff63373b1067ca6f91cf1456aa1f00a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
 </head>
 
-<body class="quarto-light">
+<body class="floating nav-fixed quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
-<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
-  <nav id="TOC" role="doc-toc" class="toc-active">
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Experiment of target adjustment</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./plan.html" aria-current="page"> 
+<span class="menu-text">実験計画</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./pilot.html"> 
+<span class="menu-text">パイロットテスト結果</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./results.html"> 
+<span class="menu-text">実験結果</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
@@ -59,13 +134,17 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#目標の期中調整の期待と実施の効果" id="toc-目標の期中調整の期待と実施の効果" class="nav-link" data-scroll-target="#目標の期中調整の期待と実施の効果"><span class="header-section-number">2.1</span> 目標の期中調整の期待と実施の効果</a></li>
   <li><a href="#目標の期中調整と公正の関係" id="toc-目標の期中調整と公正の関係" class="nav-link" data-scroll-target="#目標の期中調整と公正の関係"><span class="header-section-number">2.2</span> 目標の期中調整と公正の関係</a></li>
+  <li><a href="#条件別の難易度の予想" id="toc-条件別の難易度の予想" class="nav-link" data-scroll-target="#条件別の難易度の予想"><span class="header-section-number">2.3</span> 条件別の難易度の予想</a></li>
+  <li><a href="#条件別の業績の予想" id="toc-条件別の業績の予想" class="nav-link" data-scroll-target="#条件別の業績の予想"><span class="header-section-number">2.4</span> 条件別の業績の予想</a></li>
+  <li><a href="#条件別の予測" id="toc-条件別の予測" class="nav-link" data-scroll-target="#条件別の予測"><span class="header-section-number">2.5</span> 条件別の予測</a></li>
   </ul></li>
   <li><a href="#リサーチデザイン" id="toc-リサーチデザイン" class="nav-link" data-scroll-target="#リサーチデザイン"><span class="header-section-number">3</span> リサーチ・デザイン</a>
   <ul>
   <li><a href="#実験の概要" id="toc-実験の概要" class="nav-link" data-scroll-target="#実験の概要"><span class="header-section-number">3.1</span> 実験の概要</a></li>
-  <li><a href="#実験参加者" id="toc-実験参加者" class="nav-link" data-scroll-target="#実験参加者"><span class="header-section-number">3.2</span> 実験参加者</a>
+  <li><a href="#実験参加者" id="toc-実験参加者" class="nav-link" data-scroll-target="#実験参加者"><span class="header-section-number">3.2</span> 実験参加者</a></li>
+  <li><a href="#実験手順" id="toc-実験手順" class="nav-link" data-scroll-target="#実験手順"><span class="header-section-number">3.3</span> 実験手順</a>
   <ul>
-  <li><a href="#報酬" id="toc-報酬" class="nav-link" data-scroll-target="#報酬"><span class="header-section-number">3.2.1</span> 報酬</a></li>
+  <li><a href="#報酬" id="toc-報酬" class="nav-link" data-scroll-target="#報酬"><span class="header-section-number">3.3.1</span> 報酬</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#変数" id="toc-変数" class="nav-link" data-scroll-target="#変数"><span class="header-section-number">4</span> 変数</a>
@@ -83,13 +162,16 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#補足分析" id="toc-補足分析" class="nav-link" data-scroll-target="#補足分析"><span class="header-section-number">5.3.1</span> 補足分析</a></li>
   </ul></li>
   <li><a href="#パイロットテストの確認事項" id="toc-パイロットテストの確認事項" class="nav-link" data-scroll-target="#パイロットテストの確認事項"><span class="header-section-number">5.4</span> パイロットテストの確認事項</a></li>
-  <li><a href="#マニピュレーション-チェック-1" id="toc-マニピュレーション-チェック-1" class="nav-link" data-scroll-target="#マニピュレーション-チェック-1"><span class="header-section-number">5.5</span> マニピュレーション-チェック</a></li>
+  <li><a href="#マニピュレーションチェック" id="toc-マニピュレーションチェック" class="nav-link" data-scroll-target="#マニピュレーションチェック"><span class="header-section-number">5.5</span> マニピュレーション・チェック</a></li>
   </ul></li>
   </ul>
 </nav>
-</div>
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-</div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -111,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025/09/04, 22:27</p>
+      <p class="date">2025/09/05, 13:54</p>
     </div>
   </div>
   
@@ -190,9 +272,16 @@ ul.task-list li input[type="checkbox"] {
 <li>仮説3c： 目標の期中調整の期待があり，管理不能要因がある期間に目標の期中調整を実施しない場合，目標の期中調整の期待がなく管理不能要因がある期間に目標の期中調整を実施しない場合と比較して手続き的公正の認識が低い。</li>
 <li>仮説4： 目標の期中調整の期待と実施の組み合わせは，従業員の手続き的公正性の認識を媒介して，全期間の業績を高める。</li>
 </ul>
-<p>  ### 条件別の難易度の予想</p>
-<p>###条件別の業績の予想</p>
-<p>  ###条件別の予測 平常ラウンド 期中調整 業績 手続き的 公正 全体の 業績 告知 実施 前半 後半<br>
+</section>
+<section id="条件別の難易度の予想" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="条件別の難易度の予想"><span class="header-section-number">2.3</span> 条件別の難易度の予想</h3>
+</section>
+<section id="条件別の業績の予想" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="条件別の業績の予想"><span class="header-section-number">2.4</span> 条件別の業績の予想</h3>
+</section>
+<section id="条件別の予測" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="条件別の予測"><span class="header-section-number">2.5</span> 条件別の予測</h3>
+<p>平常ラウンド 期中調整 業績 手続き的 公正 全体の 業績 告知 実施 前半 後半<br>
 あり あり／なし 低 ？ 高 中 なし あり／なし 高 ？ 低 高</p>
 <p>厳しいラウンド 期中調整 業績 手続き的 公正 全体の 業績 告知 実施 前半 後半<br>
 あり あり 高 高 中 中 なし 高 低 低 低 なし あり 低 高 高 高 なし 低 低 中 中</p>
@@ -206,15 +295,28 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="実験参加者" class="level3" data-number="3.2">
 <h3 data-number="3.2" class="anchored" data-anchor-id="実験参加者"><span class="header-section-number">3.2</span> 実験参加者</h3>
-<p>1条件50人×4条件で，合計200人の実験参加者を集める。実験の参加者の募集および報酬の支払いは，研究用のクラウドソーシングプラットフォームであるProlificを使用する。実験の使用言語が英語であるため，対象者は米国および英国居住者に限定する。 実験のタスクと手順 実験で行うタスクは，リアル-エフォート-タスクの一種であるデコーディング-タスク(Chow 1983)である。デコーディング-タスクとは，数字とアルファベットの組み合わせ表に基づいて，数字をアルファベットに変換するタスクである。参加者は，数字とアルファベットの対応表を用いて，数字をアルファベットに変換する。不正解の場合は次の問題に進み，スコアにはカウントされない。また，画面にはそのラウンドの現時点の正解数と残り時間が表示される。 デコーディング-タスクによって参加者のパフォーマンスを測定する理由は，先行研究で行われているため比較が容易であるからであるからである。また，参加者の努力に敏感で，容易に学習でき，参加者が自分の能力を正確に測定することができる。 デコーディング-タスクの種類は，数字のケタが3ケタの問題と6ケタの問題があり，後者の方が解答により多くの時間を必要とする。参加者に対してこのラウンドが平常ラウンドであるか厳しいラウンドであるかはタスク中の画面に明示されない。平常ラウンドが3ケタ、厳しいラウンドが6ケタである。したがって，平常ラウンドと比較して厳しいラウンドは，目標を達成するのが難しくなることで，管理不能要因のある環境を再現している。したがって管理不能要因がある厳しいラウンドでは目標の期中調整が必要であるが，管理不能要因がない平常ラウンドでは必要ない。</p>
+<p>1条件50人×4条件で，合計200人の実験参加者を集める。実験の参加者の募集および報酬の支払いは，研究用のクラウドソーシング・プラットフォームであるProlificを使用する。実験の使用言語が英語であるため，対象者は米国および英国居住者に限定する。 実験のタスクと手順 実験で行うタスクは，リアル・エフォート・タスクの一種であるデコーディング・タスク(Chow 1983)である。デコーディング・タスクとは，数字とアルファベットの組み合わせ表に基づいて，数字をアルファベットに変換するタスクである。参加者は，数字とアルファベットの対応表を用いて，数字をアルファベットに変換する。不正解の場合は次の問題に進み，スコアにはカウントされない。また，画面にはそのラウンドの現時点の正解数と残り時間が表示される。 デコーディング・タスクによって参加者のパフォーマンスを測定する理由は，先行研究で行われているため比較が容易であるからであるからである。また，参加者の努力に敏感で，容易に学習でき，参加者が自分の能力を正確に測定することができる。 デコーディング・タスクの種類は，数字のケタが3ケタの問題と6ケタの問題があり，後者の方が解答により多くの時間を必要とする。参加者に対してこのラウンドが平常ラウンドであるか厳しいラウンドであるかはタスク中の画面に明示されない。平常ラウンドが3ケタ、厳しいラウンドが6ケタである。したがって，平常ラウンドと比較して厳しいラウンドは，目標を達成するのが難しくなることで，管理不能要因のある環境を再現している。したがって管理不能要因がある厳しいラウンドでは目標の期中調整が必要であるが，管理不能要因がない平常ラウンドでは必要ない。</p>
 <p>【実験画面のイメージ】</p>
-<p>【実験手順】 1. 参加者が実験への参加を承諾する。 2. 実験のタスクについて説明する。 3. 報酬条件について説明する。 4. 「告知あり」条件の群に対して，期中調整について説明をする。 5. 理解度確認テストを実施する。 6. 練習パート（2分×3回）を実施する。 7. 本番パートを実施する（①〜⑥の繰り返し4回）。 ① 目標を設定する。 ② ラウンド前半のタスクを行う（2分） ③ 目標の難易度に関する質問を行う。 ④ 期中調整する群に期中調整を行う。 ⑤ 目標の難易度に関する質問を行う。 ⑥ ラウンド後半のタスクを行う（2分）。 8. 参加者の背景と公正性に関する事後質問を行う。 9. 練習パートと本番パートの業績に基づいて報酬額を確定させる。</p>
+</section>
+<section id="実験手順" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="実験手順"><span class="header-section-number">3.3</span> 実験手順</h3>
+<ol type="1">
+<li>参加者が実験への参加を承諾する。</li>
+<li>実験のタスクについて説明する。</li>
+<li>報酬条件について説明する。</li>
+<li>「告知あり」条件の群に対して，期中調整について説明をする。</li>
+<li>理解度確認テストを実施する。</li>
+<li>練習パート（2分×3回）を実施する。</li>
+<li>本番パートを実施する（1〜6の繰り返し4回） <br> 7.1. 目標を設定する <br> 7.2. ラウンド前半のタスクを行う（2分）<br> 7.3. 目標の難易度に関する質問を行う<br> 7.4. 期中調整する群に期中調整を行う<br> 7.5. 目標の難易度に関する質問を行う<br> 7.6. ラウンド後半のタスクを行う（2分）</li>
+<li>参加者の背景と公正性に関する事後質問を行う。</li>
+<li>練習パートと本番パートの業績に基づいて報酬額を確定させる。</li>
+</ol>
 <p>【実験のラウンドと環境の対応表】 練習パート 順序1 順序2 1 平常 平常 2 平常 平常 3 厳しい 厳しい 本番パート 順序1 順序2 1 平常 厳しい 2 厳しい 平常 3 平常 厳しい 4 厳しい 平常</p>
-<p>実験は，上記の手順で進める。まず，実験参加の同意を得て，実験のタスクについて説明した後，目標の期中調整の告知ありの群には，目標の期中調整について説明する。目標の期中調整の告知なしの群には，期中調整の説明はしないが，厳しいラウンドがあることは説明する。 理解度チェックでは，参加者が実験のタスクや報酬についての問題すべてに正解するまで次の画面に進めないようにする。さらに，目標の期中調整の告知ありの群の参加者に対しては，期中調整の操作を理解しているかどうかを確認するための問題も含まれる。 理解度チェックの後，練習パートを行う。練習パートは，平常環境の2分間2回と厳しい環境のラウンド2分間1回を順番に行う。 その後，本番パートを実施する。本番パートの期首目標は，練習パートの2回目の平常ラウンドの正解数を2倍したものである（時間が2倍であるため）。これにより，参加者の能力に応じた目標設定ができる。なお，目標値が練習パートの実績に応じて決定されることは参加者には知らされない。目標の決定方法がわかっていれば，練習パートで努力を控える可能性があるためである。参加者は前半と後半1分間ずつの1回3分間のラウンドを8回行う。2回の平常環境のラウンド，2回の厳しい環境のラウンドで構成される。次のラウンドが平常環境であるか厳しい環境であるかは参加者に明示されない。また，厳しいピリオドと平常ピリオドの順序が参加者の行動に影響を与えるかどうかを評価するため，2パターンの順序を使用する。 前半と後半の間の中間フィードバックでは，前半の正解数とそのラウンドの目標値が表示される。そして，期中調整の実施ありの条件では，期中調整後の目標が表示される。調整後の目標は，本番ラウンドの時間が練習ラウンドの2倍であるため，練習パートの厳しいラウンドの正解数を2倍したものである。なお，目標の調整に関する参加者間の操作とラウンドの種類に関する参加者内の操作の効果を評価するため，各ラウンドの前半終了後と後半開始前に，参加者に割り当てられた目標の難易度を7段階で評価させる。 その後，参加者は，公正に関する認識，背景（年齢，性別，勤務年数）について質問に答える。これらの質問を終えると，参加者が獲得した金額を示すメッセージが表示される。参加者の報酬は，実験終了後にProlificを通じて各参加者に支払われる。</p>
-<section id="報酬" class="level4" data-number="3.2.1">
-<h4 data-number="3.2.1" class="anchored" data-anchor-id="報酬"><span class="header-section-number">3.2.1</span> 報酬</h4>
+<p>実験は，上記の手順で進める。まず，実験参加の同意を得て，実験のタスクについて説明した後，目標の期中調整の告知ありの群には，目標の期中調整について説明する。目標の期中調整の告知なしの群には，期中調整の説明はしないが，厳しいラウンドがあることは説明する。 理解度チェックでは，参加者が実験のタスクや報酬についての問題すべてに正解するまで次の画面に進めないようにする。さらに，目標の期中調整の告知ありの群の参加者に対しては，期中調整の操作を理解しているかどうかを確認するための問題も含まれる。 理解度チェックの後，練習パートを行う。練習パートは，平常環境の2分間2回と厳しい環境のラウンド2分間1回を順番に行う。/ その後，本番パートを実施する。本番パートの期首目標は，練習パートの2回目の平常ラウンドの正解数を2倍したものである（時間が2倍であるため）。これにより，参加者の能力に応じた目標設定ができる。なお，目標値が練習パートの実績に応じて決定されることは参加者には知らされない。目標の決定方法がわかっていれば，練習パートで努力を控える可能性があるためである。参加者は前半と後半1分間ずつの1回3分間のラウンドを8回行う。2回の平常環境のラウンド，2回の厳しい環境のラウンドで構成される。次のラウンドが平常環境であるか厳しい環境であるかは参加者に明示されない。また，厳しいピリオドと平常ピリオドの順序が参加者の行動に影響を与えるかどうかを評価するため，2パターンの順序を使用する。 前半と後半の間の中間フィードバックでは，前半の正解数とそのラウンドの目標値が表示される。そして，期中調整の実施ありの条件では，期中調整後の目標が表示される。調整後の目標は，第2パートの時間が練習ラウンドの2倍であるため，練習パートの厳しいラウンドの正解数を2倍したものである。なお，目標の調整に関する参加者間の操作とラウンドの種類に関する参加者内の操作の効果を評価するため，各ラウンドの前半終了後と後半開始前に，参加者に割り当てられた目標の難易度を7段階で評価させる。 その後，参加者は，公正に関する認識，背景（年齢，性別，勤務年数）について質問に答える。これらの質問を終えると，参加者が獲得した金額を示すメッセージが表示される。参加者の報酬は，実験終了後にProlificを通じて各参加者に支払われる。</p>
+<section id="報酬" class="level4" data-number="3.3.1">
+<h4 data-number="3.3.1" class="anchored" data-anchor-id="報酬"><span class="header-section-number">3.3.1</span> 報酬</h4>
 <p>練習パートでは1問正解するごとに£0.02の報酬が与えられる。本番パートの開始前に，参加者にそれぞれ目標値が提示される。目標値は練習パートにおける正解数に基づいて，参加者それぞれに目標値を設定する。参加者はラウンドごとに，目標の達成によってボーナスが£1.0与えられる。目標値を超える正解数には，1問あたり£0.1の割合で業績連動ボーナスが与えられる。ただし目標値を達成できなければそのラウンドの報酬は与えられない。例えば，目標が20問で実績が25問だった場合，目標達成ボーナスが1.0 £，業績連動ボーナスが£0.1×5問＝£0.5で合計£1.5である。 この報酬契約の設計は，標準的なインセンティブ契約を反映している。標準的なインセンティブ契約では，業績が目標レベルに達すればボーナスが支給され，業績が目標を上回れば，ボーナスは通常増額され，時には上限が設定されることもある (Jensen 2003, Murphy 2001)。ただし，報酬に上限を設定すると，参加者の業績が上限値に達したり近づいたりした場合，それ以上業績を高める努力を控える可能性が高い。今回の研究では目標の期中調整の効果を検証することが目的であり，目標の上限値が与える効果が目標の期中調整の効果と交絡することを防ぐため，今回は上限値を設定しない。 なお，報酬の総額がProlificによって規定されている最低時給（1時間あたり6£）に満たない場合は自動的に実験参加時間に見合った最低額が支給される 。</p>
-<p>練習パート：1問正解ごとに£0.02 本番パート：目標達成により£0.6，目標を超過した正解数に対し1問あたり£0.02の追加ボーナスを支払う。 全参加者の完了時間の中央値から，prolificにおける最低時給（£6.0/h）を下回る場合は、自動的に上方修正される。実験の想定所要時間は30分（うち実験タスクの時間は19分）である。</p>
+<p>第1パート：1問正解ごとに£0.02 第2パート：目標達成により£0.6，目標を超過した正解数に対し1問あたり£0.02の追加ボーナスを支払う。 全参加者の完了時間の中央値から，prolificにおける最低時給（£6.0/h）を下回る場合は、自動的に上方修正される。実験の想定所要時間は30分（うち実験タスクの時間は19分）である。</p>
 <p>予算 全員が練習パートで計30点を獲得し，本番パートで全ラウンドで目標を5点超過した場合 200人×（£0.6＋£0.6＋(0.02×5)×8）＝ 200人×£6.2 ＝ £1,240 クラウドソーシングサービス利用料（総報酬額の25%） £1,240×25％ ＝ £310 計　£1,550（£1＝200 円の場合，315,000円) サーバー利用料 5,000円 合計費用 320,000円</p>
 </section>
 </section>
@@ -277,9 +379,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="パイロットテストの確認事項" class="level3" data-number="5.4">
 <h3 data-number="5.4" class="anchored" data-anchor-id="パイロットテストの確認事項"><span class="header-section-number">5.4</span> パイロットテストの確認事項</h3>
 <ul>
-<li><p>目標難易度練習ラウンドに基づいた練習のスコア✕100％の目標が適切か -目標難易度の平均値-分散が偏っていないか -正解数の平均値-分散が偏っていないか</p></li>
+<li><p>目標難易度練習ラウンドに基づいた練習のスコア✕100％の目標が適切か<br>
+</p></li>
+<li><p>目標難易度の平均値-分散が偏っていないか</p></li>
+<li><p>正解数の平均値-分散が偏っていないか</p></li>
 <li><p>平常ラウンドのほうが厳しいラウンドよりも正解数が有意に多いか→◯</p></li>
-<li></li>
 <li><p>期中調整の告知なしの条件の参加者が認識する調整前の目標の難易度は，平常ラウンドよりも厳しいラウンドのほうが正解数が有意に高いか</p></li>
 <li><p>期中調整の告知ありの条件の参加者が認識する調整前の目標の難易度は，期中調整の告知なしの条件の参加者が認識する調整前の目標の難易度よりも有意に低いか</p></li>
 <li><p>厳しいラウンドにおいて， -期中調整の実施ありの条件で，参加者の認識する目標の難易度は，調整前よりも調整後のほうが有意に低いか -期中調整の実施ありの条件で，参加者が認識する調整後の目標の難易度は，期中調整の実施なしの条件の参加者が認識する調整後の目標の難易度よりも有意に低いか</p></li>
@@ -290,23 +394,29 @@ ul.task-list li input[type="checkbox"] {
 <p>報酬は固定にするか</p>
 <p>変動報酬は仕様上できない。 ただし報酬額ごとに追加タスクを設定する方法で変動報酬のようにすることは可能。</p>
 <ul>
-<li>目標難易度練習ラウンドに基づいた練習のスコア✕100％の目標が適切か -目標難易度の平均値-分散が偏っていないか -正解数の平均値-分散が偏っていないか</li>
+<li>目標難易度練習ラウンドに基づいた練習のスコア✕100％の目標が適切か<br>
+</li>
+<li>目標難易度の平均値-分散が偏っていないか -正解数の平均値-分散が偏っていないか</li>
 </ul>
 </section>
-<section id="マニピュレーション-チェック-1" class="level3" data-number="5.5">
-<h3 data-number="5.5" class="anchored" data-anchor-id="マニピュレーション-チェック-1"><span class="header-section-number">5.5</span> マニピュレーション-チェック</h3>
+<section id="マニピュレーションチェック" class="level3" data-number="5.5">
+<h3 data-number="5.5" class="anchored" data-anchor-id="マニピュレーションチェック"><span class="header-section-number">5.5</span> マニピュレーション・チェック</h3>
 <ul>
 <li>平常ラウンドのほうが厳しいラウンドよりも正解数が有意に多いか 仮説検証</li>
 <li>期中調整の告知なしの条件の参加者が認識する調整前の目標の難易度は，平常ラウンドよりも厳しいラウンドのほうが正解数が有意に高いか</li>
 <li>期中調整の告知ありの条件の参加者が認識する調整前の目標の難易度は，期中調整の告知なしの条件の参加者が認識する調整前の目標の難易度よりも有意に低いか</li>
-<li>厳しいラウンドにおいて， -期中調整の実施ありの条件で，参加者の認識する目標の難易度は，調整前よりも調整後のほうが有意に低いか -期中調整の実施ありの条件で，参加者が認識する調整後の目標の難易度は，期中調整の実施なしの条件の参加者が認識する調整後の目標の難易度よりも有意に低いか</li>
+<li>厳しいラウンドにおいて，
+<ul>
+<li>期中調整の実施ありの条件で，参加者の認識する目標の難易度は，調整前よりも調整後のほうが有意に低いか -期中調整の実施ありの条件で，参加者が認識する調整後の目標の難易度は，期中調整の実施なしの条件の参加者が認識する調整後の目標の難易度よりも有意に低いか</li>
+</ul></li>
 </ul>
 <p>自己決定目標による実験に変更する 目標設定ボーナス 目標達成ボーナス 最終目標達成ボーナス</p>
+
+
 </section>
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
